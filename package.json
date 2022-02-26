@@ -1,6 +1,6 @@
 {
-  "name": "template-react-component-library",
-  "version": "0.0.2",
+  "name": "react-button-package",
+  "version": "1.0.0",
   "description": "A simple template for a custom React component library",
   "scripts": {
     "rollup": "rollup -c"
@@ -23,9 +23,6 @@
     "dist"
   ],
   "types": "dist/index.d.ts",
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/ZahraZare99"
-  },
   "dependencies": {
     "balanced-match": "^1.0.2",
     "brace-expansion": "^1.1.11",
@@ -73,5 +70,8 @@
   "bugs": {
     "url": "https://github.com/ZahraZare99/template-react-component-library/issues"
   },
-  "homepage": "https://github.com/ZahraZare99/template-react-component-library#readme"
+  "homepage": "https://github.com/ZahraZare99/template-react-component-library#readme",
+  "keywords": [
+    "btn"
+  ]
 }
